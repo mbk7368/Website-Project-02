@@ -1,11 +1,34 @@
-  a         {color: blue;    text-decoration: none; }
-  a:hover   {color: rgb(100 , 10, 10);    text-decoration: none; }
-  body      {background-color: beige; color: black; font-family: Roboto,Amiko,verdana,arial, Helvetica, sans-serif; text-align: center;   }
-  footer    {margin-top: 2rem;    margin-bottom: 2rem;  }
-  h1        {margin-bottom: 0.5rem;    margin-top: 3rem;   }
-  h2        {color: rgb(50,50,10); margin-top: 3rem; margin-bottom: 3rem; border: 4px black double;padding: 10px; padding-left: 100px; padding-right: 100px; display: inline-block;  }
-  h3        {margin-bottom: 0;    margin-top: 1.2rem; font-weight: 500; }
-  h4        {margin-bottom: 0rem;    margin-top: 0.8rem;  font-weight:400;}
-  h5        {margin-top: 0.5rem;  font-weight: 400;}
-  hr        {margin-bottom: 2rem;    margin-top: 2rem;  }
-  ul        {display: table;    margin: 0 auto;    text-align: left; padding: 0; }
+/*General*/
+
+body {font-size: 100%; margin: 0; }
+.normal_text {color: rgb(40,40,40) !important; font-size: 100%; font-family: "Roboto";}
+.heading_text {color: rgb(0, 0, 0) !important;font-size: 200%; font-family: 'Times New Roman', Times, serif; font-weight: bold; }
+.section {width: 100%; height: 90vh; padding-top: 10vh;}
+.image {background-repeat: no-repeat; background-size: contain; background-position: center;}
+/*Menue Bar */
+#menu_bar {width: 100%; background-color: rgb(40, 30,70); position: fixed; z-index: 5; top: 0; right: 0; padding: 1%;}
+#menu_bar .menu_item {display: inline;}
+#menu_bar .menu_item a {padding: 0 2%; text-decoration: none; float: right;}
+#menu_logo {display: inline;}
+
+/*Home*/
+
+
+
+
+/*Vlaues*/
+
+
+
+
+/*About Us*/
+
+
+
+
+/*Contact Us*/
+
+
+
+
+/*Footer*/
