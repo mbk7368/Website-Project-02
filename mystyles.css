@@ -25,13 +25,13 @@ body {font-size: 100%; margin: 0; }
 #value_item5 {font-size: 150%; font-family: "Roboto";width: 100%; position: relative; top: 335px; left: 65%}
 #value_item6 {font-size: 150%; font-family: "Roboto";width: 100%; position: relative; top: 360px; left: 67.5%}
 /*About Us*/
-#about_title {text-align: center; top: 213.5%; left: 44%; position: absolute;}
+#about_title {text-align: center; top: 216%; left: 46%; position: absolute;}
 #about_seb_sections {position: absolute; height: 100%; padding: 0 5%;}
 .about_sub_image {width: 50%; height: 120%; display: inline-block;}
 .about_sub_text {width: 37%; height: fit-content; position: absolute; display: inline-block;}
 #about_1 {width: 100%; height: 40%; position: absolute;}
 #about_1 .about_sub_image { width: 80%; position: relative; background-image:url(images/about_1.png); left: -12%; top: -10%;}
-#about_1 .about_sub_text {top: 20%; left: 50%;}
+#about_1 .about_sub_text {top: 25%; left: 50%;}
 
 #about_2 {width: 100%; height: 40%; position: absolute;}
 #about_2 .about_sub_image {width: 30%; position: relative; background-image:url(images/about_2.png); top: 85%; left: 55%;}
@@ -44,4 +44,4 @@ body {font-size: 100%; margin: 0; }
 
 /*Footer*/
 
-.section {background-color: rgb(250,250,250);}
+.section {background-color: rgb(246,246,246);}
