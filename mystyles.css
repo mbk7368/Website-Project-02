@@ -51,6 +51,6 @@ body {font-size: 100%; margin: 0; }
 #footer_logo {display: inline-block; position: relative; left: -15%;}
 #footer_logo .image{width: 400px; height: 200px; background-image: url(images/logo_big.png);}
 #footer_text{ position: relative; left: 15%;}
-#footer_links { display: inline-block; padding: 2% 0 2% 50%;}
+#footer_links { display: inline-block; padding: 2% 0 2% 50%; position: relative ; left: 15%; top: -60px ;}
 #footer_links p{text-decoration: underline;}
 #footer_links a{display: block; text-decoration: none; color: white !important;}
