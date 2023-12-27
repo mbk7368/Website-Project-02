@@ -32,18 +32,25 @@ body {font-size: 100%; margin: 0; }
 #about_1 {width: 100%; height: 40%; position: absolute;}
 #about_1 .about_sub_image { width: 80%; position: relative; background-image:url(images/about_1.png); left: -12%; top: -10%;}
 #about_1 .about_sub_text {top: 25%; left: 50%;}
-
 #about_2 {width: 100%; height: 40%; position: absolute;}
 #about_2 .about_sub_image {width: 30%; position: relative; background-image:url(images/about_2.png); top: 85%; left: 55%;}
 #about_2 .about_sub_text {top: 110%; left: 12%;}
 /*Contact Us*/
-#contact_title {text-align: center;}
-#contact_sub_sections {width: 30% ; position: relative;left: 35%; padding: 5% 5%;}
+#contact_title {text-align: center; position: relative;top: 10%;}
+#contact_sub_sections {width: 30% ; position: relative;left: 27%; top: 5%; padding: 6% 6%;}
 #contact_sub_sections p  {position: absolute; top: 25%; display: inline-block; padding: 0 20% ; margin: 0;}
 #contact_phone .image {background-image: url(images/phone_logo.png);}
-
-
-
+#contact_mail .image {background-image: url(images/mail_logo.png);}
+#contact_location .image {background-image: url(images/location_logo.png);}
+#contact_phone, #contact_mail, #contact_location {position: relative;}
+#contact_sub_sections .image {width: 45px; height: 45px; display: inline-block;}
 /*Footer*/
-
+#footer {background-color: rgb(40,30,70); position:relative ; bottom:0 ; padding: 2% 20%;}
 .section {background-color: rgb(246,246,246);}
+#footer div{color: white !important;}
+#footer_logo {display: inline-block; position: relative; left: -15%;}
+#footer_logo .image{width: 400px; height: 200px; background-image: url(images/logo_big.png);}
+#footer_text{ position: relative; left: 15%;}
+#footer_links { display: inline-block; padding: 2% 0 2% 50%;}
+#footer_links p{text-decoration: underline;}
+#footer_links a{display: block; text-decoration: none; color: white !important;}
