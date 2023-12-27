@@ -37,8 +37,10 @@ body {font-size: 100%; margin: 0; }
 #about_2 .about_sub_image {width: 30%; position: relative; background-image:url(images/about_2.png); top: 85%; left: 55%;}
 #about_2 .about_sub_text {top: 110%; left: 12%;}
 /*Contact Us*/
-
-
+#contact_title {text-align: center;}
+#contact_sub_sections {width: 30% ; position: relative;left: 35%; padding: 5% 5%;}
+#contact_sub_sections p  {position: absolute; top: 25%; display: inline-block; padding: 0 20% ; margin: 0;}
+#contact_phone .image {background-image: url(images/phone_logo.png);}
 
 
 
