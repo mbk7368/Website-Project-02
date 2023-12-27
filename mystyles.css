@@ -1,18 +1,19 @@
 /*General*/
 body {font-size: 100%; margin: 0; }
-.normal_text {color: rgb(40,40,40) !important; font-size: 100%; font-family: "Roboto";}
+.normal_text {color: rgb(40,40,40) !important; font-size: 120%; font-family: "Roboto";}
 .heading_text {color: rgb(0, 0, 0) !important;font-size: 200%; font-family: 'Times New Roman', Times, serif; font-weight: bold; }
 .section {width: 100%; height: 90vh; padding-top: 10vh;}
 .image {background-repeat: no-repeat; background-size: contain; background-position: center;}
 /*Menue Bar */
-#menu_bar {width: 100%; background-color: rgb(40, 30,70) !important; z-index: 5 ; position: fixed; top: 0; right: 0; padding: 1%;}
-#menu_bar .menu_item {display: inline;}
-#menu_bar .menu_item a{padding: 0 2%; text-decoration: none; float: right;color: white !important ;}
+#menu_bar {width: 100%; background-color: rgb(40, 30,70) !important; z-index: 5 ; position: fixed; top: 0; right: 0; padding: 0.5%; padding-right: 5%;}
+#menu_bar .menu_item {display: inline; }
+#menu_bar .menu_item a{padding: 1% 2%; text-decoration: none; float: right ;color: white !important ;}
 #menu_logo {display: inline;}
-#menu_logo .image{width:100px;height:50px;background-image:url(images/logo.png);display:inline-block;padding:0 2%;}
+#menu_logo .image{width:100px;height:50px;background-image:url(images/logo.png);display:inline-block;padding:0.1% 8%;}
+.menu_item {font-size: 110%;}
 /*Home*/
-
-
+#home_section {background-size: contain;background-image: url(images/home_bg.png); background-repeat: no-repeat; background-position: bottom;background-position-x: 0;}
+#home_title { font-size: 180%; width: fit-content; position: relative; top: 30%; left: 50%;}
 /*Vlaues*/
 
 
