@@ -12,17 +12,28 @@ body {font-size: 100%; margin: 0; }
 #menu_logo .image{width:100px;height:50px;background-image:url(images/logo.png);display:inline-block;padding:0.1% 8%;}
 .menu_item {font-size: 110%;}
 /*Home*/
-#home_section {background-size: contain;background-image: url(images/home_bg.png); background-repeat: no-repeat; background-position: bottom;background-position-x: 0;}
+#home_section {background-size: 1400px;background-image: url(images/home_bg.png); background-repeat: no-repeat; background-position: bottom;background-position-x: 0;}
 #home_title { font-size: 160%; width: fit-content; position: relative; top: 30%; left: 50%;}
 /*Vlaues*/
-#values_section { background-size: 40%;background-image:url(images/value_picture.png); background-repeat: no-repeat;
-                  background-position: bottom;background-position-x: 45%; background-position-y:70%;}
-#value_title {width: fit-content; position: relative; top: 100px; left: 42%}
-#value_item1 {color: rgb(40,40,40) !important; font-size: 120%; font-family: "Roboto";width: fit-content; position: relative; top: 80%; left: 50%}
+#values_section { background-size: 800px;background-image:url(images/value_picture.png); background-repeat: no-repeat;background-position: bottom;background-position-x: 45%; background-position-y:70%;}
+#value_title {width: 100%; position: relative; top: 100px;text-align: center;}
+#value_item1 {font-size: 150%; font-family: "Roboto";width: 100%; position: relative; top: 250px; left: 52.5%}
+#value_item2 {font-size: 150%; font-family: "Roboto";width: 100%; position: relative; top: 270px; left: 55%}
+#value_item3 {font-size: 150%; font-family: "Roboto";width: 100%; position: relative; top: 290px; left: 57.5%}
+#value_item4 {font-size: 150%; font-family: "Roboto";width: 100%; position: relative; top: 315px; left: 62.5%}
+#value_item5 {font-size: 150%; font-family: "Roboto";width: 100%; position: relative; top: 335px; left: 65%}
+#value_item6 {font-size: 150%; font-family: "Roboto";width: 100%; position: relative; top: 360px; left: 67.5%}
 /*About Us*/
-
-
+#about_title {text-align: center;}
+#about_seb_sections {position: relative; height: 100%; padding: 0 5%;}
+.about_sub_image {width: 50%; height: 120%; display: inline-block;}
+.about_sub_text {width: 50%; height: fit-content; position: absolute; top: 250%; display: inline-block;}
+#about_1 {width: 100%; height: 40%; position: relative; top: 0;}
+#about_1 .about_sub_image {background-image: url(images/about_1.png);}
 /*Contact Us*/
+
+
+
 
 
 /*Footer*/
